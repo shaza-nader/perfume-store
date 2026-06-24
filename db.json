@@ -1,0 +1,75 @@
+{
+  "products": [
+    {
+      "id": 101,
+      "name": "Nuit d'Or",
+      "price": 120,
+      "quantity": 50,
+      "description": "Warm amber, vanilla, and a whisper of oud."
+    },
+    {
+      "id": 102,
+      "name": "Rose Éternelle",
+      "price": 140,
+      "quantity": 35,
+      "description": "Bulgarian rose, peony, and white musk."
+    },
+    {
+      "id": 103,
+      "name": "Citron Vert",
+      "price": 95,
+      "quantity": 20,
+      "description": "Fresh lime, bergamot, and green tea."
+    },
+    {
+      "id": 104,
+      "name": "Bois Sauvage",
+      "price": 160,
+      "quantity": 15,
+      "description": "Sandalwood, cedar, and smoky vetiver."
+    },
+    {
+      "id": 105,
+      "name": "Jasmin de Nuit",
+      "price": 135,
+      "quantity": 40,
+      "description": "Night-blooming jasmine and soft amber."
+    },
+    {
+      "id": 106,
+      "name": "Mer Bleue",
+      "price": 110,
+      "quantity": 60,
+      "description": "Sea salt, driftwood, and cool iris."
+    },
+    {
+      "id": 107,
+      "name": "Oud Royale",
+      "price": 185,
+      "quantity": 10,
+      "description": "Rich agarwood, dark chocolate, and spicy saffron."
+    },
+    {
+      "id": 108,
+      "name": "Fleur de Pêche",
+      "price": 105,
+      "quantity": 25,
+      "description": "Juicy peach, white blossoms, and warm honey."
+    },
+    {
+      "id": 109,
+      "name": "Mystique",
+      "price": 150,
+      "quantity": 30,
+      "description": "Incense, black pepper, and dark patchouli."
+    },
+    {
+      "id": 110,
+      "name": "Vanille Dorée",
+      "price": 125,
+      "quantity": 45,
+      "description": "Madagascar vanilla, tonka bean, and toasted almond."
+    
+    }
+  ]
+}

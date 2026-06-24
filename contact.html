@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Aurélie</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="brand">Aurélie</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart (<span id="cartCount">0</span>)</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1>Contact Us</h1>
+    <p class="lead">We'd love to hear from you. Send us a message and our team will reply within 24 hours.</p>
+
+    <form id="contactForm" class="contact-form" novalidate>
+      <label>Name
+        <input type="text" id="name" />
+        <span class="error" id="nameError"></span>
+      </label>
+
+      <label>Email
+        <input type="email" id="email" />
+        <span class="error" id="emailError"></span>
+      </label>
+
+      <label>Subject
+        <select id="subject">
+          <option value="general">General Question</option>
+          <option value="order">Order Inquiry</option>
+          <option value="press">Press / Wholesale</option>
+        </select>
+      </label>
+
+      <label>Message
+        <textarea id="message" rows="5"></textarea>
+        <span class="error" id="messageError"></span>
+      </label>
+
+      <button type="submit" class="btn">Send Message</button>
+      <p id="formSuccess" class="success"></p>
+    </form>
+
+    <h2>Boutique Locations</h2>
+    <ul>
+      <li>Paris — 12 Rue Saint-Honoré</li>
+      <li>New York — 540 Madison Avenue</li>
+      <li>Tokyo — Ginza 6-Chome</li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Aurélie Parfums.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
